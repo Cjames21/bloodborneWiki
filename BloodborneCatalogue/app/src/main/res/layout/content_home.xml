@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cjameswebdev.bloodbornecatalogue.Home"
+    tools:showIn="@layout/activity_home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_one"
+        android:id="@+id/title_one_string"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:textSize="32sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_two"
+        android:layout_below="@+id/title_one_string"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:textSize="32sp"
+        android:id="@+id/title_two_string"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_two_string"
+        android:text="@string/NPC_list_select"
+        android:layout_marginTop="40dp"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/npc_button"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/npc_button"
+        android:layout_marginTop="40dp"
+        android:text="@string/enemies_list_select"
+        android:id="@+id/enemies_button"
+        android:textSize="22sp"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enemies_button"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/boss_list_select"
+        android:id="@+id/bosses_button"
+        android:textSize="22sp"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bosses_button"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_references"
+        android:id="@+id/reference_button"
+        android:textSize="22sp"/>
+
+</RelativeLayout>

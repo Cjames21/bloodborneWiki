@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Template for NPC string set, comment before each one for separation-->
+    <!-- NPC name:-->
+    <!-- NPC description, where its found(if in game)-->
+    <!-- Associated items-->
+    <!-- Quest line guide(if they have one), lore-->
+
+    <!-- String Array of NPC names for NPC list -->
+    <string-array name="npc_names">
+        <item>Adella the Nun</item>
+        <item>Afflicted Beggar</item>
+        <item>Alfred, Hunter of VileBloods</item>
+        <item>Annalise, Queen of the VileBloods</item>
+        <item>Arianna, Lady of the Night</item>
+        <item>Blood Minister</item>
+        <item>Chapel Dweller</item>
+        <item>Doll</item>
+        <item>Eileen the Crow</item>
+        <item>Gilbert</item>
+        <item>Iosefka</item>
+        <item>Lonely Old Woman</item>
+        <item>Narrow Minded Man</item>
+        <item>Old Hunter Gehrman</item>
+        <item>Patches the Spider</item>
+        <item>Provost Willem</item>
+        <item>Retired Hunter Djura</item>
+        <item>Valtr</item>
+        <item>Young Girl and Older Sister</item>
+    </string-array>
+
+
+    <!-- THESE STRING SETS WILL BE USED WITHIN THE ARTICLES THEMSELVES, THE ARRAY-LIST WILL BE
+         USED FOR, YOU GUESSED IT, THE LIST -->
+
+    <!-- Adella the Nun string set-->
+    <string name="npc_adella">Adella the Nun</string>
+    <string name="adella_description">Adella is a nun of the Healing Church, and can be found in Yahar-Gul
+    crying and praying for help. She is one of the few NPC\'s that can be sent to Oedon Chapel.</string>
+    <string name="adella_items">Adella provides the Hunter with the Blood of Adella, an item that gives
+    the Hunter health immediately, as well as slowly restoring the Hunter\'s health over time.</string>
+    <string name="adella_quest_guide">Adella\'s quest is relatively short, but is slightly confusing as
+    she won\'t talk to the Hunter unless they are wearing a torso piece of the Healing Church.</string>
+
+    <!-- Afflicted Beggar string set-->
+    <string name="npc_afflicted_beggar">Afflicted Beggar</string>
+    <string name="afflicted_beggar_description">The Afflicted Beggar can be found on the roof of one
+    of the windmills in the forbidden forest. He appears to have elongated arms, hinting at his impending
+    transformation. This becomes apparent when the Hunter attacks him. The beggar will transform into
+    a beast and give the Hunter a fight to remember.</string>
+    <string name="afflicted_beggar_items">Drops a Beast rune if killed.</string>
+    <string name="afflicted_beggar_quest_guide">This NPC is another one of the people that can be sent
+    to a safe zone; however he does not act quite so innocent as he may seem. If he is sent to the Oedon
+    Chapel, he will slowly kill the rest of the NPC\'s. It is recommended to kill this NPC when he is
+    found for the large amount of blood echoes he drops in beast form.</string>
+
+    <!-- Alfred, Hunter of Vilebloods string set-->
+    <string name="npc_alfred">Alfred, Hunter of Vilebloods</string>
+    <string name="alfred_description">Alfred can be found in the Cathedral Ward outside the tomb the
+    leads to Old Yharnam. Alfred is a very friendly NPC and will talk at length about the various details
+    of Yharnam and it\'s citizens. Later in the game he moves to the a different spot in the Cathedral
+    Ward, overlooking the entrance to the Forbidden Forest.</string>
+    <string name="alfred_items">Speaking with Alfred will provide the player with several Fire Papers,
+    and killing him gives the Hunter the Wheel Hunter Badge, opening up items to buy from the messengers.</string>
+    <string name="alfred_quest_guide">Speak with Alfred at the Cathedral Ward, and tell him you want to help
+    him hunt the Bilebloods. After this progress through the game until Martyr Logarius is killed.
+    Equip the Crown of Illusions, revealing the Vileblood Queen\'s chamber/prison. To the right of her
+    is a table with an unopened summons that the Hunter can give to Alfred, granting him access to
+    Cainhurst Castle. Return to the Cainhurt Castle Queen\'s chamber to find Alfred standing over Queen
+    Annalise\'s remains. The Hunter can loot Queenly Flesh from the throne, and receives the Roar gesture
+    from Alfred. The final part of this quest line inolves finding Alfred at his original spot, dead.
+    The Hunter can loot the Radiance rune from his body. </string>
+
+    <!-- Annalise, Queen of the Vilebloods string set-->
+    <string name="npc_annalise">Annalise, Queen of the Vilebloods</string>
+    <string name="annalise_description">Annalise is the last remaining member of the Vilebloods, a group
+    of vampire like creatures born from the Forbidden Blood.The rest of the Vilebloods were wiped
+    out by Martyr Logarius. Annalise is kept locked up in her keep/prison by Logarius.</string>
+    <string name="annalise_items">Joining the Vilebloood\'s covenant rewards the player with the
+    Cainhurst Badge, granting access to the Cainhurst Armour set and the Chikage weapon. Killing her
+    rewards the player with some blood echoes and Queenly Flesh.</string>
+    <string name="annalise_quest_guide">Annalise\'s quest involves killing Martyr Logarius and looting
+    the Crown of Illusions to discover Annalise\'s keep. After this there are several different quest
+    lines associated with her; however her own quest line is joining her covenant and finding Blood
+    Dregs to give her. </string>
+
+    <!-- Arianna, Lady of the Night string set-->
+    <string name="npc_arianna">Arianna, Lady of the Night</string>
+    <string name="arianna_description">Arianna is a prostitute that can be found in the Cathedral
+    Ward. After defeating approx. three bosses(including the cleric beast, which is optional)
+    she can be sent to the Oedon Chapel to be kept safe(recommended), or sent to Iosefka\'s clinic
+    for experimentation.</string>
+    <string name="arianna_items">Arianna gives the Hunter the Curtsy gesture, and the Blood of Arianna
+     blood vial. Later in the game she will provide means to obtain a One Third Umbilical Cord.</string>
+    <string name="arianna_quest_guide">Completing Arianna\'s quest line requires the Hunter to send
+    her to the Oedon Chapel for safety and keeping her alive long enough for her to give birth to
+    an infant Great One. To do this the Hunter must not accept her blood, and avoid sending the
+    Inflicted Beggar to Oedon Chapel as he will slowly kill all the other NPC\'s there. After killing
+    Micolash, Arianna will have given birth to an infant Great One and moved to the room between the Oedon
+    Chapel and the Tomb of Oedon. Kill the child(Arianna will die as well) to obtain a One Third
+    Umbilical Cord.</string>
+
+    <!-- Blood Minister string set-->
+    <string name="npc_blood_minister">Blood Minister</string>
+    <string name="blood_minister_description">The Blood Minister is the first NPC that the Hunter
+    will come across, and is only seen during the opening cut scene. He infuses the player with Yharnam
+    blood, transforming the player into the Hunter.</string>
+    <string name="blood_minister_items">The Blood Minister gives the Hunter a contract to sign, which
+    is when the player gets to choose their heritage, looks and name. Although this is not a tangible
+    item throughout the game, it is quite important.</string>
+    <string name="blood_minister_quest_guide"></string>
+
+    <!-- Chapel Samaritan string set-->
+    <string name="npc_chapel_dweller">Chapel Dweller</string>
+    <string name="chapel_dweller_description">The Chapel Dweller is the NPC that the Hunter first
+    comes across in the Oedon chapel. It is clear from the first time speaking with him that he\'s
+    blind as he states that the incense masked the Hunter\'s scent as they approach. This NPC remains
+    friendly throughout the entire game so it is not recommended the player kill him as he only drops
+    a Formless Oedon rune, and a very depressing dialogue.</string>
+    <string name="chapel_dweller_items">Drops a Formless Oedon rune when killed. Also rewards the
+    Hunter with the Triumph gesture when the elderly lady is sent to the Chapel.</string>
+    <string name="chapel_dweller_quest_guide">The Chapel Dweller provides the Hunter with the option
+    to send sane survivors the Oedon Chapel the wait the hunt out in safety. Sending all the
+    optional NPC\'s to the Chapel will lead to unsavory results as the Chapel Dweller gets very upset
+    when any of the survivors die. To avoid this, don\'t send the Afflicted Beggar to the Oedon Chapel,
+    and avoid accepting the Blood of Arianna.</string>
+
+    <!--Doll-->
+    <string name="npc_doll">Doll</string>
+    <string name="doll_description">The Doll can be found in the Hunter\'s Dream and is used to channel
+    blood echoes gained on the hunt. She occasionally falls asleep if the Hunter goes out on a long
+    hunt. This NPC is only available after the Hunter has gained one insight. This can be done by
+    consuming a madman\'s knowledge, killing the Cleric Beast, or killing Father Gascoigne.</string>
+    <string name="doll_items">Giving the Doll the Small Hair Ornament, the Doll will reward the
+    Hunter with a Tear Stone, which can be turned into a droplet that fits any gem slot.</string>
+    <string name="doll_quest_guide">At the end of the game, if the Hunter becomes an Infant Great One,
+    the Doll will pick the Hunter up and cradle their new form, comforting them.</string>
+
+    <!-- Eileen the Crow string set-->
+    <string name="npc_eileen">Eileen the Crow</string>
+    <string name="eileen_description">Eileen description here</string>
+    <string name="eileen_items">Items associated with Eileen here</string>
+    <string name="eileen_quest_guide">Eileen quest guide here</string>
+
+    <!-- Gilbert string set-->
+    <string name="npc_gilbert">Gilbert</string>
+    <string name="gilbert_description">Gilbert is one of the first NPC\'s that the player comes across
+    and can be found very close to the Central Yharnam lantern. Speaking with him provides the player
+    with information regarding Yharnam and it\'s citizens. He also acknowledges the fact that he is in
+    a bad condition and unable to even walk at the beginning of the game.</string>
+    <string name="gilbert_items">Once the Hunter has defeated Father Gascoigne, Gilbert will provide
+    the Hunter with a Flamesprayer, and effective weapon against beasts. When Gilbert is killed he
+    drops some blood echoes and a Beast rune.</string>
+    <string name="gilbert_quest_guide">Progressing far enough through the game and returning to Central
+    Yharnam, the Hunter will find Gilbert broken out of his window, and fully transformed into a beast.</string>
+
+    <!-- Iosefka string set-->
+    <string name="npc_iosefka">Iosefka</string>
+    <string name="iosefka_description">Iosefka is an interesting character as she is actually two
+    characters. The true Iosefka can be spoken with at the beginning of the game and is kind, and gentle.
+    The true Iosefka provides the Hunter with Iosefka\'s Blood Vial when the Hunter has run out. The
+    impostor is much more maniacal and agressive in her interactions.</string>
+    <string name="iosefka_items">The true Iosefka will give the Hunter Iosefka\'s Blood Vial when
+    spoken with as long as the Hunter doesn\'t already have one. The imposter will reward the Hunter
+    with an assortment of Numbing Mists, Lead Elixirs, and Insight for sending NPC\'s to her clinic
+    for experimentation. Killing her while she is still hostile in her clinic will reward the Hunter
+    with an Oedon Writhe rune. Killing her when she is pregnant and weak on the table in her clinic
+    will reward the player with a One Third Umbilical Cord(recommended).</string>
+    <string name="iosefka_quest_guide">Iosekfa has three stages that she can be interacted with. the
+    first is at the beginning of the game when the true Iosefka is running her clinic. After dicovering
+    the Cathderal Ward, the impostor kidnaps the true Iosefka and begins her experiments on NPC\'s that
+    the Hunter sends her. This is the stage that she can be found inside of her clinic still hostile.
+    After the Blood Moon phase of the game begins, the impostor enters her third stage and is pregnant
+    with an Infant Great One. Killing her during this stage is recommended as it rewards the Hunter
+    with a One Third Umbilical Cord.</string>
+
+    <!-- Lonely Old Woman string set-->
+    <string name="npc_old_woman">Lonely Old Woman</string>
+    <string name="old_woman_description">The Lonely Old Woman is one of the NPC\'s that can be sent
+    to the Oedon Chapel for safety. She can be found just past the area with the group of hounds in
+    Central Yharnam. At first she seems to be quite bitter and blames the Hunter for the circumstances
+    that Yharnam is in.</string>
+    <string name="old_woman_items">The Lonely Old Woman provides the Hunter with Sedatives for their
+    hunt after progressing through the game far enough. </string>
+    <string name="old_woman_quest_guide">Starting off bitter and eager to have the Hunter leave her be;
+    however the more bosses that the Hunter brings down, the more her mood changes. As the moon
+    transitions to the grey phase, she descends to madness and can only respond to the Hunter with tears.
+    During the blood moon phase, it is believed that madness has fully taken her as she makes a flip
+    switch in her mood and is incredibly kind to the Hunter, offering Sedatives, eventually even
+    going out into Yharnam to look for more if she runs out. Abusing this will eventually lead to her
+    death. Her body can be found just outside of the Oedon Chapel, or what remains of her body.</string>
+
+
+    <!-- Narrow Minded Man string set-->
+    <string name="npc_narrow_minded_man">Narrow Minded Man</string>
+    <string name="narrow_minded_man_description">The Narrow Minded Man can be found across the alley
+    from where Arianna was found. He is another NPC that can be sent to the Oedon Chapel or to Iosefka\'s
+    Clinic.</string>
+    <string name="narrow_minded_man_items"></string>
+    <string name="narrow_minded_man_quest_guide">This NPC will only listen to the Hunter when Arianna
+    has found her way to either the Oedon Chapel or Iosefka\'s Clinic. He travels to the opposite
+    destination that the Hunter tells him about.</string>
+
+    <!-- Old Hunter Gehrman string set-->
+    <string name="npc_gehrman">Old Hunter Gehrman</string>
+    <string name="gehrman_description">Old hunter Gehrman is an NPC that provides the Hunter with
+    advise throughout the game, although very cryptic advice. He can be found sitting in his wheelchair
+    around the Hunter\'s Dream. Gherman is one of the first Hunters, splitting from the Healing Church
+    and forming the Black Church and the Hunters to eradicate the epidemic of beasts from Yharnam.
+    It is believed that Gehrman was chosen by the Moon Presence as it\'s surrogate child from the
+    description on the One Third Umbilical Cord found in the Old Abondoned Workshop.</string>
+    <string name="gehrman_items">Items associated with Gehrman here</string>
+    <string name="gehrman_quest_guide">Gherman provides the Hunter with the questline that is the
+    entirety of Bloodborne. Although he did not task the Hunter with taking part in the hunt, he gives
+    the hunter advice and encourages them to seek further answers of the nightmare throughout the game.
+    Killing Gehrman at the and of the game is symbolic of the Hunter freeing him of the Moon Presence\'s
+    grasp and allowing him to escape the Hunter\'s Nightmare.</string>
+
+    <!-- Patches the Spider string set-->
+    <string name="npc_patches">Patches the Spider</string>
+    <string name="patches_description">Patches is a character that From Software enjoys using in all
+    of their games to mess with the Hunter. His character is always a deceitful one looking to spark
+    intrigue in the player with treasure to lure them into a trap. In Bloodborne he is a Spider with
+    a man\'s head. Patches can be found in many areas of the game, depending on what phase the moon
+    is on.</string>
+    <string name="patches_items">After Patches has done his dirty work, the Hunter can confront him
+    and receive the Beg for Life gesture. Selecting the "Not at all" dialogue option will reward the
+    Hunter with the Anti Clockwise Metamorphosis rune. Killing Patches will reward the Hunter with
+    some blood echoes and a Great One\'s Wisdom.</string>
+    <string name="patches_quest_guide">Patches can be spoken with after killing Rom where the Young
+    Girl was previously in Central Yharnam. Approaching him here will provide the player with the Tonsil
+    Stone, a means to be sent to the Nightmare Frontier. Finding Patches in the nightmare Lecture Building
+    will have Patches tell the Hunter that they are in his debt and should be thankful to him, and
+    he will tell the Hunter to "throw themselves to the wolves". After falling for Patches\' trick, the
+    Hunter can confront him once again by travelling through the lecture building 2nd floor and taking
+    a ladder down into the room that he is hiding in. This will put Patches into a frightened state and
+    he will try to convince the Hunter that he has done no wrong. There are several dialogue options
+    available here, or he can be outright killed.</string>
+
+    <!-- Provost Willem string set-->
+    <string name="npc_willem">Provost Willem</string>
+    <string name="willem_description">Willem is the leader of the Byrgenwerth institute, where the
+    Healing Church was founded. Willem was one of those that deeply researched the Old Blood found in
+    the Pthumerian Labyrinths underneath Yharnam. Willem\'s ultimate goal was to transcend humanity
+    to it\'s next plane of thought. As time when on, Byrgenwerth was abandoned by many of the scholars
+    to strive for differing goals. Willem is one of the few that remained loyal to the institute and
+    researching a way to evolve humanity past it\'s limited self. Willem can be found on the balcony
+    overlooking Lake Byrgenwerth.</string>
+    <string name="willem_items">Speaking with Willem will grant the Hunter with two Insight. Killing
+    him rewards the player with an Eye rune. </string>
+    <string name="willem_quest_guide"></string>
+
+    <!-- Retired Hunter Djura string set-->
+    <string name="npc_djura">Retired Hunter Djura</string> <!-- Very tempting to type retarded hunter djura -->
+    <string name="djura_description">Djura is the Hunter that is found in Old Yharnam. At first, he tells
+    the Hunter to leave Old Yharnam and to leave the beasts be that live there as they mean no harm to those
+    above. Entering Old Yharnam anyway will lead to Djura to fire his gatling gun at the Hunter. There is
+    a way to get him to be friendly though(see quest guide)</string>
+    <string name="djura_items">Killing Djura will grant the Hunter with the Power Keg Badge, allowing access
+    to the Stake Driver, Rifle Spear, Oil Urns and Rope Molotovs from the messengers.</string>
+    <string name="djura_quest_guide">To get Djura to become non-hostile, the Hunter must kill Darkbeast
+    Paarl, and opening the great wooden doors closing Old Yharnam off from Yar\'Ghul. Afterwards,
+    the Hunter must return to the Hunter\'s Dream, and travel back to the The Curch of the Good Chalice,
+    or Graveyard of the Beast lanterns and finding their way to Djura without killing and of the beasts
+    on their way. Speaking with Djura will give the Hunter the option to "spare the beasts". Doing so
+    rewards the Hunter with the Powder Keg Badge and the Brush Off Dust gesture.</string>
+
+    <!-- Valtr-->
+    <string name="npc_valtr">Valtr</string>
+    <string name="valtr_description">Valtr is an NPC that grants the Hunter access to the League covenant.
+    Valtr can be found inside the windmill at the first lamp in the forbidden woods. It is said that Valtr
+    and a group of his constables came to Yharnam chasing a Great Black Beast. All but Valtr died, who
+    killed this beast and ate it\'s remains. This is how he came to his title of "Valtr, Beast Eater".</string>
+    <string name="valtr_items">Joinging Valtr\'s covenant, The League, Valtr gives the player the
+    Impurity rune. </string>
+    <string name="valtr_quest_guide">Upon joining Valtr\'s covenant, the Hunter is rewarded with the
+    Impurity rune. Killing one Vermin rewards the Hunter with a League Cane, and the League Oath.
+    Killing five Vermin rewards the Hunter with the Master\'s Iron Helm, transition Valtr from being
+    the leader of the covenant to the Hunter symbolically.</string>
+
+    <!-- Young Girl and Older Sister-->
+    <string name="npc_youngGirl_littleSister">Young Girl &amp; Little Sister</string>
+    <string name="yg_ls_description">The Young Girl and later, her older sister can be found in Central
+    Yharnam after travelling through the sewers and climbing all the way back up a ladder, leading
+    to a shortcut as well. Which of the two sisters the Hunter will talk to depends on decisions
+    made throughout the game. </string>
+    <string name="yg_ls_items">The young girl will ask the Hunter to find her mother, Viola, who went on a
+    search to find Father Gascoigne. Accepting the task will grant the Hunter with a Musical Box.</string>
+    <string name="yg_ls_quest_guide">After killing Father Gascoigne and finding the Red Jeweled Broach, the
+    Hunter can turn this item in to the Young Girl, prompting her to strike out and try to find her
+    mother on her own. Returning to the Hunter\'s Dream, and killing the Giant Pig in the sewers
+    will allow the hunter to find a Blood Soaked Ribbon. Loot this item and return to the Little Girl\'s
+    home. Speaking to the window will now prompt dialogue from her older sister, who will ask if you
+    have seen her little sister. Give her the Blood Soaked Ribbon, causing some rather disturbing dialogue.
+    Returning to the Hunter\'s Dream and going back again, and traveling down the ladder will lead
+    the Hunter to finding a White Messenger Ribbon, hinting that the older sister either fell off,
+    or threw herself off the top of the ladder, ending the quest line and giving the Hunter a very
+    depressing accessory to adorn the messengers with.</string>
+
+
+</resources>

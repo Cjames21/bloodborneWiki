@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_resource_bloodborne_wiki">Bloodborne Wiki Website</string>
+    <string name="bloodborne_wiki_link">http://bloodborne.wiki.fextralife.com</string>
+    <string name="bloodborne_wiki_special_thanks">I often came to this site for specific details of
+    certain NPC\'s or enemies. This website alone was a huge boon to me during the development of this
+    app. Thank you to all the developers of that website!</string>
+
+    <string name="info_resource_google">Google</string>
+    <string name="google_link">google.com</string>
+    <string name="google_special_thanks">Google is my number one any time I need some quick information.
+    A quick search and a glimpse of the results can go a long way paired with a bit of other research.</string>
+
+    <string name="info_resource_android_developers">Android Developer Documentation website</string>
+    <string name="android_developer_link">https://developer.android.com/index.html</string>
+    <string name="android_developer_special_thanks">As someone who is learning how to develop Android
+    applications in a variety of ways, this website is perfect for figuring out how to build a feature,
+    or how to fix a feature in the app that just doesn\'t quite want to work. Thank you for the in depth,
+    and incredibly well designed documentation Android!</string>
+
+    <string name="info_resource"></string>
+    <string name="_link"></string>
+    <string name="_special_thanks"></string>
+
+    <string name="info_resource_myself">Myself!</string>
+    <string name="myself_link">To get a hold of me, send me an email @ charlestdjames1@gmail.com</string>
+    <string name="myself_special_thanks">I have a great deal of time spent playing Bloodborne, and I
+    absolutely love this game. Between four play-throughs, the strong love I have for this game, and
+    the amazing group of resources I have listed above, this app has been made possible.</string>
+
+</resources>

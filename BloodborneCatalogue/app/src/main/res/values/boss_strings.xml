@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Bosses string set template:
+    Boss Title(Optional or Not):
+    Boss Description:
+    Boss Lore:
+    Boss fight strategy:
+    Loot: -->
+
+<resources>
+
+    <!-- String Array for Boss list Activity -->
+    <string-array name="boss_list">
+        <item>Amygdala</item>
+        <item>Blood Starved Beast</item>
+        <item>Celestial Emissary</item>
+        <item>Cleric Beast</item>
+        <item>Darkbeast Paarl</item>
+        <item>Ebrietas, Daughter of the Cosmos</item>
+        <item>Father Gascoigne</item>
+        <item>Gehrman, The Old Hunter</item>
+        <item>Martyr Logarius</item>
+        <item>Mergo\'s Wet Nurse</item>
+        <item>Micolash, Host of the Nightmare</item>
+        <item>Moon Presence</item>
+        <item>One Reborn</item>
+        <item>Rom, the Vacuous Spider</item>
+        <item>Shadows of Yharnam</item>
+        <item>Vicar Amelia</item>
+        <item>Witch of Hemwick</item>
+    </string-array>
+
+    <!-- Amygdala -->
+    <string name="amygdala">Amygdala</string>
+    <string name="amygdala_description">Amygdala is one of the Great Ones that the Hunter will hear
+    about often if they are listening to the lore in Yharnam. This being has many arms, and can be
+    found all over Yharnam once the Hunter has gained enough insight.</string>
+    <string name="amygdala_lore">Amygdala seems to be one of the \"true\" Great Ones as it is shaped
+    much like the Moon Presence. This shows that this being is not a construction of the Great Ones,
+    nor is it one of the experiments that created a Great One done by man. Amygdala appears to be
+    quite powerful, yet rather simple. The being is capable of rending holes in reality, camouflaging
+    itself from lesser beings, and creating copies of itself to keep an eye on many locations at once.
+    This being is named after a part of the human brain called the Amygdala, which is central to human
+    kind\'s ability to emotional reactions, decision making, and memory hinting at this being\'s
+    purpose for being in Yharnam.</string>
+    <string name="amygdala_fight_strategy">Amygdala is weak to Arcane, Fire and Bolt damage; however
+    that is only if the Hunter is striking in the right spots. It will become quickly evident that this
+    being\'s weak spots are it\'s arms, and it\'s head. This maes the fight a little more risky as
+    the Hunter will have to keep themselves in, or close to Amygdala\'s areas of attack. Keeping off
+    to the side, and staying closer to the front is the safest place to be for this fight, and keep
+    in mind, if Amygdala jumps, it won\'t do damage if you stay still. This is a tough fight once
+    Amygdala reaches approx. 30% of it\'s HP, just remember to stay off to the side and near the front
+    of this being until an opening appears to strike.</string>
+    <string name="amygdala_loot">Amygdala awards the Hunter with three insight for discovering it,
+    and three more for killing it. Also drops blood echoes and an Ailing Loran Chalice.</string>
+
+    <!-- Blood Starved Beast -->
+    <string name="boss_blood_starved_beast">Blood Starved Beast</string>
+    <string name="blood_starved_beast_description">The Blood Starved Beast in an optional boss that
+    the Hunter may come across on their journey. It is located in a run down church in Old Yharnam.
+    This beast has a grotesque figure with an elongated torso, with all of the skin ripped from it\'s
+    back. It wears a ragged cloth over it\'s head and shoulders, seemingly self conscious of it\'s looks.</string>
+    <string name="blood_starved_beast_lore">This beast seems to be worshipped in Old Yharnam by
+    the Beast Patients, as there is a Blood Starved Beast found crucified inside the Cathdedral
+    located just after Djura\'s tower. Examining the altar in this room shows depictions of the Moon
+    Presence, hinting at a connection between the Blood Staved Beast, and the Great One.</string>
+    <string name="blood_starved_beast_fight_strategy">The Blood Starved Beast is a very, very quick
+    opponent when attacking; however it takes it\'s time approaching the Hunter. It\'s attacks are
+    capable of poisoning the Hunter, adding an additional level of caution to be taken when confronting
+    this beast. One method for tackling this fight is to bring a flame sprayer, upgraded as much as
+    possible and get very aggressive with the beast as it is incredibly weak to fire. Key times for
+    peak aggression are when the best is switching into it\'s next phase. This will enable the Hunter
+    to rack up their multiplier, roasting the beast before it gets much of a chance to fight at all.
+    Another method that works well against this foe is to use Alfred as a shield. He can be summoned
+    from just outside of the boss area and is fairly resilient(beware, he will likely die in the third
+    phase, so be prepared for a fight no matter what if you use this method). The Blood Starved Beast
+    has certain obvious attacks that can be parried, and countered with a visceral attack for easy
+    damage.</string>
+    <string name="blood_starved_beast_loot">The Blood Starved Beast drops blood echoes, a Pthumeru
+    chalice, and one insight for defeating in.</string>
+
+    <!-- Celestial Emissary -->
+    <string name="celestial_emissary">Celestial Emissary</string>
+    <string name="celestial_emissary_description">Celestial Emissary can be found in the Orphanage in
+    the Upper Cathedral. To find this location the Hunter will need to traverse the Upper Cathedral
+    Ward and find the Orphanage Key dropped by the Brainsucker through the door where the Wolf Beast
+    jumps through the window at you. This boss is a giant version of the normal version of celestial
+    emissaries, and is one of the easier fights in the game when encountered.</string>
+    <string name="celestial_emissary_lore">As the Iosefka impostor experimented on survivors, she must
+    have come across a survivor with extra strength, as this experiment is much tougher to kill than
+    the rest of them. As the Hunter attacks, the Emissary\'s powers slowly awaken and come to
+    fruition when the fight is coming to it\'s end.</string>
+    <string name="celestial_emissary_fight_strategy">The Celestial Emissary is a pretty easy fight, as
+    long as the Hunter has experience killing the regular emissaries. Upon finding this boss, the Hunter
+    will have to figure out which emissary is the boss. After this the Hunter will need to work their
+    way through the group of normal emissaries to attack the boss. The boss itself is weak to
+    bolt at first, then weak to fire later in the fight. It is recommended to ignore the regular enemies
+    as they will keep re-spawning while the boss remains alive. Once the boss gets to about 30% HP,
+    it will grow in size and become a little more aggressive. Stay close to it at this point as it will
+    unleash a cosmic barrage at the Hunter, which can end the fight quite quickly.</string>
+    <string name="celestial_emissary_loot">Celestial Emissary rewards the Hunter with two insight for
+    killing it, some blood echoes, and the Communion rune.</string>
+
+    <!-- Cleric Beast -->
+    <string name="boss_cleric_beast">Cleric Beast</string>
+    <string name="cleric_beast_description">This beast has enormous, disfigured horns, body parts that
+    are completely mismatched in size, and a horribly disfigured face. this beast can be found across
+    the Great Bridge in central Yharnam and is the first optional boss that the Hunter will come across.</string>
+    <string name="cleric_beast_lore">There is a small tidbit in Hunter scripture that states
+    that the members of the Healing Church would eventually turn into the most horrible beasts. The
+    Cleric Beast seems to be proof of this.</string>
+    <string name="cleric_beast_fight_strategy">A common strategy for fighting this beast with no
+    special preparation in mind is to dodge forward and to the left when the beast attacks, and get
+    in behind it to avoid as much damage as possible. The beast only has one attack when the Hunter
+    is in behind and if the Hunter is careful, they can dodge with the attack to remain behind the beast
+    until it leaps away, or backs into a wall. Bringing molotov cocktails and a weapon tht deals
+    serration damage is a good idea for this fight as the beast is weak to both types of damage.
+    It is also possible to break the beasts legs after enough damage is done to it, allowing for a
+    big window of opportunity to deal a large amount of damage.</string>
+    <string name="cleric_beast_loot">The Cleric Beast drops some blood echoes, the Sword Hunter Badge,
+    and three insight when defeated. Discovering this beast rewards the Hunter with one blood echo as
+    well.</string>
+
+    <!-- Darkbeast Paarl -->
+    <string name="boss_darkbeast_paarl">Darkbeast Paarl</string>
+    <string name="darkbeast_paarl_description">Darkbeast Paarl can be found in Hypogean Gaol, in a
+    slightly secret area that can be found by finding the room with two witches and a couple Snatchers.
+    Near the back of this room is a tunnel in the wall that leads to this bosses\' area. This beast
+    is a deformed beast covered with lightning enhanced hair/aura that it will repeatedly activate
+    throughout the fight.</string>
+    <string name="darkbeast_paarl_lore"> It\'s face, if examined closely is very wrinkled, hinting
+    that this beast is incredibly old and has been guarding this entrance to Old Yharnam for quite
+    some time. </string>
+    <string name="darkbeast_paarl_fight_strategy">Darkbeast Paarl is weak to fire and arcane damage,
+    so bringing fire papers or an arcane weapon with help greatly with this fight. Using a combination
+    of Oil Urns and Molotov cocktails to throw Paarl off balance, then crippling his legs, opening him
+    up to a visceral attack is likely the easiest method for defeating this boss as it enables the Hunter
+    to essentially stun lock him until he died. Getting underneath the boss is always recommended as
+    the boss has a difficult time doing damage to the Hunter while they are under him.</string>
+    <string name="darkbeast_paarl_loot">Darkbeast Paarl drops some blood echoes, a Spark Hunter Badge,
+    and three insight when defeated. The Hunter is rewarded with one insight for discovering the boss.</string>
+
+    <!-- Ebrietas, Daughter of the Cosmos -->
+    <string name="ebrietas">Ebrietas, Daughter of the Cosmos</string>
+    <string name="ebrietas_description">Ebrietas is a monstrosity of a Great One(see picture), and can
+    be found after killing the Celestial Emissary. To find this boss, the Hunter must locate the
+    breakable window in the Lumenflower Gardens, and take the elevator down to the Altar of Despair.</string>
+    <string name="ebrietas_lore">The initial encounter with Ebrietas began the Yharnamite\'s interest
+    in the cosmos from within the old labyrinth, leading to the establishment of the Choir. Delving
+    deep into the labyrinth allowed the members of the Choir to discover, and bring back the Great
+    Isz chalice, and have audience with Ebrietas.</string>
+    <string name="ebrietas_fight_strategy">Though Ebrietas appears to be a large slug with tentacles,
+    it is capable of incredibly fast turn speeds and sweeping attacks with huge range. This is a
+    battle of attrition and there are few easy ways of ending this battle. Try to focus on attacking
+    the chest of this being, as it will retaliate with much more predictable moves, allowing for an
+    easier time defending/dodging the attacks. Ebrietas is weak to bolt damage, and it wouldn\'t
+    hurt to bring runes/gems that give bonus dsmage vs. kin.</string>
+    <string name="ebrietas_loot">Discovering Ebrietas will give the Hunter three insight. Killing her
+    rewards the Hunter with three more insight, a hefty amount of blood echoes, and the Great Isz Chalice.</string>
+
+    <!-- Father Gascoigne -->
+    <string name="boss_father_gascoigne">Father Gascoigne</string>
+    <string name="father_gascoigne_description">Father Gascoigne is the first mandatory boss in
+    Bloodborne. When the Hunter confronts him, it is clear that he has began to transform into a beast.
+    Gascoigne can be found after the Hunter finds their way through the Yharnam Aqueducts and crossed
+    the bridge with multiple townsfolk blocking the way, as well as a troll who lights a giant ball on
+    fire, sending it rolling towards the Hunter and the group of Huntsmen.</string>
+    <string name="father_gascoigne_lore">Father Gascoigne is husband to Viola, and father to the young
+    girl and her sister that can be found in central Yharnam. When Gascoigne goes out on his hunt,
+    Viola ventures out in search of him. When the Hunter interacts with the little girl, she mentions
+    that Viola forgot the music box that brings Gascoigne down from his madness and reminds him of
+    his family. She also mentions that Viola wears a wonderful red broach. After defeating Gascoigne,
+    the Hunter can find Viola and her broach atop the small building in the boss arena. Taking this
+    broach back to the little girl will prompt her to become nearly hysterical with grief. Later, her
+    ribbon can be found by killing the giant pig in the sewers in the Aqueducts. Return this blood
+    soaked ribbon to the little girl\'s older sister to prompt some disturbing dialogue. The older
+    sister can later be found at the bottom of the ladder directly beside her house. She either committed
+    suicide, or slipped and fell off the ledge.</string>
+    <string name="father_gascoigne_fight_strategy">Father Gascoigne has been known to be one of the
+    hardest fights in this game, considering how early on he is found. Many of his attacks are able
+    to be parried, opening him up to visceral attacks. Combine parried with a quick molotov toss and
+    he will go down quite easily. Be wary of his beast phase as he can stunlock the Hunter with his
+    leaping attacks, quickly killing them. Parrying his leaps is the best bet for handling this phase,
+    as he can still be stunned and visceral attacked after he transforms.</string>
+    <string name="father_gascoigne_loot">Father Gascoigne drops some blood echoes and an Oedon Tomb
+    key.</string>
+
+    <!-- Gerhman, The First Hunter -->
+    <string name="boss_gehrman">Gehrman, The First Hunter</string>
+    <string name="boss_gehrman_description">Gehrman is one of the three final bosses of Bloodborne.
+    You can find Gehrman in the Hunter\'s Dream throughout the game; however after killing Mergo\'s
+    Wet Nurse, Gehrman will have moved to the base of the Great Tree behind the workshop.</string>
+    <string name="gehrman_lore">See Old Hunter Gherman NPC page for lore.</string>
+    <string name="gehrman_fight_strategy">Gehrman has a very fast, aggressive fight style and is
+    considered by many one of the bigger challenges in the game. Becoming incredibly familiar with
+    parrying will make this fight less of a burden, as Gehrman is able to be parried throughout the
+    fight. Be wary of him when he has his Hunter\'s Pistol out, as it can parry you even if you aren\'t
+    attacking. This fight is about patience and learning Gehrman\'s attack patterns. Know which attacks
+    do and don\'t do incredible amounts of damage, learn which attacks can be parried and always remain
+    patient. </string>
+    <string name="gehrman_loot">Gehrman drops an Old Hunter Badge, as well as a large amount of blood
+    echoes.</string>
+
+    <!-- Martyr Logarius -->
+    <string name="boss_logarius">Martyr Logarius</string>
+    <string name="logarius_description">Martyr Logarius can be found on the roof of the Cainhurst castle,
+    keeping watch over his prisoner. He is a human but has been twisted from his original form, giving
+    him a nightmarish look.</string>
+    <string name="logarius_lore">Martyr Logarius was the reason behind the near extinction of the
+    Vilebloods. He struck out on a mission to eliminate all the Vilebloods, and succeeded; however,
+    Logarius kept Queen Annalise locked up in her keep and shrouded by illusion. He remains warden of
+    this prison until the Hunter kills him.</string>
+    <string name="logarius_fight_strategy">Martyr Logarius is quite strong against fire, arcane, and
+    bolt damage. The key to this fight is to stay patient. Logarius is most vulnerable when he\'s in
+    his melee phase.  During this phase Logarius can be parried for large amounts of damage. During
+    his magic phase try to work your way around the spells being fired at you for a quick strike or
+    two, then move back. Lastly, Logarius will drive his sword into the ground, creating another
+    obstacle in the form of endless magic swords that fly towards the Hunter. Breaking the sword planted
+    in the gound will end this.</string>
+    <string name="logarius_loot">Martyr Logarius gives one insight for finding him, and three more
+    for killing him. He also drops a large amount of blood echoes, and the Crown of Illusions. Make
+    sure to pick up the crown as it reveals the keep that Queen Annalise resides in.</string>
+
+    <!-- Mergo\'s Wet Nurse-->
+    <string name="boss_mergo">Mergo\'s Wet Nurse</string>
+    <string name="mergo_description">Mergo\'s Wet Nurse is a tall, almost demonic being with six
+    skeletal arms, and a set of black wings. Under it\'s hood, there is nothing. This boss can be
+    found at the end of the Nightmare of Mensis, at the top of the tower. As the Hunter gets closer,
+    the sound of an infant crying. </string>
+    <string name="mergo_lore">Mergo\'s Wet Nurse is a Great One that guards the source of the Nightmare,
+    Mergo. Mergo is the daughter of Yharnam, who can be found outside the boss arena. </string>
+    <string name="mergo_fight_strategy">This boss is weak to bolt, arcane, and poison attacks. There
+    is also a weak spot behind the boss when it\'s attacking. Getting in behind the boss will allow
+    the Hunter to attack without taking much damage. The boss will eventually create a purple fog,
+    during this phase, in addition to the boss\'s normal attacks, it creates a copy of itself to
+    attack the Hunter as well.</string>
+    <string name="mergo_loot">Mergo\'s Wet Nurse drops a very large amount of blood echoes, and a One
+    Third Umbilical Cord.</string>
+
+    <!-- Micolash, Host of the Nightmare-->
+    <string name="boss_micolash">Micolash, Host of the Nightmare</string>
+    <string name="micolash_description">Micolash can be found inside the castle in the Nightmare of
+    Mensis middle level. He is seen wearing a mensis cage on his head, as well as a tattered Byrgenwerth
+    uniform. </string>
+    <string name="micolash_lore">Micolash founded the School of Mensis, after the collapse of Byrgenwerth.
+    Micolash reported his findings to Lawrence and the Healing Church. </string>
+    <string name="micolash_fight_strategy">Micolash strategy here</string>
+    <string name="micolash_loot">Micolash loot</string>
+
+    <!-- Moon Presence -->
+    <string name="boss_moon_presence">Moon Presence</string>
+    <string name="moon_presence_description">Moon Presence is an optional boss at the end of Bloodborne.
+    This boss is a Great One and is where the One Third Umbilical Cords come into play. Consuming
+    these three items, and killing Gehrman will have a cut scene play of the Moon Presence floating
+    down to the Hunter. Once this fight is over, the Hunter will be transformed into a Great One,
+    lifting mankind into it\'s next level of being.</string>
+    <string name="moon_presence_lore">When the Moon Presence is encountered, it initially wants to
+    make the Hunter the next watcher of the Dream, taking Gehrman\'s place. Consuming the three One
+    Third Umbilical Cords imbues the Hunter with enough power to resist the Moon Presence, enraging
+    it and leading to the \"true\" ending.</string>
+    <string name="moon_presence_fight_strategy">Moon Presence is weak to fire and bolt damage, and
+    is susceptible to being parried. Watch for the three hit combo that it will often unleash, as this
+    is a good time to dodge in behind the boss for some quick damage. This boss is very quick, and
+    aggressive, so be patient and watch for it\'s moves that can be parried, and get in behind it
+    as much as possible.</string>
+    <string name="moon_presence_loot">Moon Presence drops a huge amount of blood echoes, and ends the
+    game upon defeat.</string>
+
+    <!-- One Reborn -->
+    <string name="boss_one_reborn">One Reborn</string>
+    <string name="one_reborn_description">The One Reborn can be found at the bottom of the large sets
+    of staircases in Yar\'Ghul after Rom has been defeated. This boss is a massive monstrosity that
+    appears to be stitched together out of piles of undead, and beasts alike.</string>
+    <string name="one_reborn_lore">The denizens of Yar\'Ghul had been known to kidnap citizens of
+    Yharnam, and perform rituals with them. There are even some that speak of hearing screams coming
+    from this part of town. As the Hunter delves deeper into Yar\'Ghul, the creatures appear more
+    and more to be made of mismatched body parts, and The One Reborn seems to be the masterpiece of
+    the experiments.</string>
+    <string name="one_reborn_fight_strategy">The One Reborn is known to be a fairly easy fight, as
+    long as the Hunter makes sure to eliminate the casters that are up on the balcony. After this,
+    head back down to the boss and make sure to avoid the pools of festering ooze that the boss will
+    shoot at you. Also keep an eye out for the large AoE attack that the boss will unleash once in a
+    while. This attack is very predictable as it has a very long charge up time, if the Hunter fails
+    to get out from this AoE attack, there is a good chance of a quick death. To have an additional
+    edge for this fight, bring either fire or bolt papers and a weapon with a high rally rate is
+    recommended. Stay in near the middle of the boss where the smaller legs with attack with rapid
+    fire kicks. If you have brought a weapon with high rally, you can essentially trade damage with
+    the boss until it\'s dead.</string>
+    <string name="one_reborn_loot">Upon discovery, The One Reborn gives the Hunter one insight, and
+    an additional three insight for killing it. When it has been defeated, it rewards the Hunter with
+    a hefty amount of blood echoes and three Yellow Backbones.</string>
+
+    <!-- Rom, The Vacuous Spider -->
+    <string name="boss_rom">Rom, the Vacuous Spider</string>
+    <string name="rom_description">Rom is a Great One boss in Bloodborne, and is the boss that changes
+    the game the most when defeated. She can be found at the Moonside Lake after jumping off the
+    Byrgenwerth balcony where Master Willem is found.</string>
+    <string name="rom_lore">After kiling Rom, the nightmare is revealed and the veil keeping the
+    Great Ones apart from the mortal world is torn apart, bring the blood moon upon Yharnam. Rom is
+    one of the Infant Great Ones and some believe her to be the child of Ebrietas. At the beginning
+    of the fight, Rom is completely non aggressive. Even through her first phase she only ever summons
+    spiders to protect her rather than attack the Hunter, suggesting that Rom might not have been one
+    of the bad guys.</string>
+    <string name="rom_fight_strategy">This boss battle is a bit of a hassle no matter how it is
+    tackled. One tried and true method is to bring a Flamesprayer, buffing it with Bone Marrow Ash,
+    and spraying Rom until she teleports. Keep a blunt weapon for dealing with the spiders that Rom
+    spawns such as a Tonitrus. These guardians are deadly if they attack in quick successions. Lastly,
+    avoid Rom\'s AoE attack, it will likely lead to a quick end to the fight. If you don\'t want to
+    use the Flamesprayer, a strength weapon paired with Fire Paper is ideal.</string>
+    <string name="rom_loot">Rom loot</string>
+
+    <!-- Shadows of Yharnam -->
+    <string name="boss_shadows_of_yharnam">Shadows of Yharnam</string>
+    <string name="shadows_of_yharnam_description">This trio can be found at the very end of the
+    Forbidden Forest, guarding the entrance to Byrgenwerth. They appear in an almost grim reaper fashion,
+    dressed in black robes, skeletal figures hidden beneath.</string>
+    <string name="shadows_of_yharnam_lore">The Shadows of Yharnam seem to be servants, or worshippers
+    of Yharnam, the Pthumerian Queen. They are found guarding Rom in the Forbidden Forest, and Mergo
+    in the upper levels of the Nightmare of Mensis. Their guarding of Rom further solidifies the
+    belief that Rom was protecting man-kind from making contact with the Great Ones. This would prove
+    that Rom and the Shadows of Yharnam aren\'t exactly the bad guys in the game.</string>
+    <string name="shadows_of_yharnam_fight_strategy">During this boss fight, try to make sure not to
+    get swarmed as this is a fairly common reason for a Hunter to die. Each of these foes has several
+    stages that they will transform into if they are either left alive for an extended period of time,
+    or one of them is killed. Their first phase is just the trio of them and their core attacks. Once
+    they switch to their second phase, allowing their bodies to become hosts for snakes. During this
+    phase, these enemies will have extremely enhanced attack range. Their third phase is the point of
+    the fight where things become a little tricky as the remaining Shadow will be able to summon enormous
+    snakes from the ground beneath you, if these snakes hit, there is a good chance of dieing for the
+    Hunter so keep an eye out for the red circles on the ground, or interrupt the Shadow from summoning
+    the snakes in the first place. One final bit of information on this fight, the Shadows are fairly
+    weak to bolt damage. They are also susceptible to the Shaman Bone Blade, essentially making the
+    fight a two on two as long as one Shadow is kept under the Shaman Bone Blade\'s influence.</string>
+    <string name="shadows_of_yharnam_loot">Shadows of Yharnam reward the Hunter with two insight for
+    their defeat, as well as a good amount of blood echoes and the Blood Rapture rune.</string>
+
+    <!-- Vicar Amelia -->
+    <string name="boss_vicar_amelia">Vicar Amelia</string>
+    <string name="vicar_amelia_description">Vicar Amelia is the second mandatory boss in Bloodborne
+    and can be found in the Grand Cathedral in the Cathedral Ward. The cut scene that plays shows
+    this boss in her human form, clutching her Gold Pendant and warning the Hunter to be wary of the
+    frailty of men, encouraging the Hunter to seek the Old Blood.</string>
+    <string name="vicar_amelia_lore">Vicars in Bloodborne are the heads of the Healing Church. It
+    seems that Vicar Amelia was the last Vicar, overseeing the Church as she watched Yharnam crumble
+    around her. When the Hunter finds her, she is seen praying to the altar, waiting for her inevitable
+    transformation to beast-hood.</string>
+    <string name="vicar_amelia_fight_strategy">Vicar Amelia, as with all beast bosses is weak to fire
+    damage, so bringing a few Fire Papers is recommended. There is no tried and true safe zone for this
+    battle, so the Hunter will have to dodge in and around her attacks to get close enough to strike.
+    Attacking Amelia\'s legs will eventually stagger her, opening her up for a visceral attack. The
+    second phase of this fight can last an eternity if the Hunter can\'t deal enough damage through
+    her healing ability. Bringing some numbing mist is a great way to avoid this as it will stop her
+    from healing altogether.</string>
+    <string name="vicar_amelia_loot">Discovery of this boss gives the Hunter one insight. Defeating
+    her rewards the Hunter with a moderate amount of blood echoes, her Gold Pendant, and three more
+    insight.</string>
+
+    <!-- Witch of Hemwick -->
+    <string name="boss_witch_of_hemwick">Witch of Hemwick</string>
+    <string name="witch_of_hemwick_description">Witch of Hemwick can be found near the end of Hemwick
+    Charnel Lane in her abode. This boss is an elite version of the Eye Collectors that can be
+    found throughout certain areas of Bloodborne.</string>
+    <string name="witch_of_hemwick_lore">The Witch of Hemwick is rumoured to hold special rituals
+    deep in the night in her lonely abode. There are whispers of her collecting the eyes of the citizens
+    found throughout Yharnam, alive or dead. </string>
+    <string name="witch_of_hemwick_fight_strategy">The fight against the Witch of Hemwick is commonly
+    referred to as an easy fight. Staying away from the Mad Ones that stalk the Hunter in the boss
+    arena, run around until the Witch reveals herself and get as many hits in as you can. Rinse and
+    repeat until the second witch appears. The trick to this fight is trying to get both witches to
+    die as close to the same time as possible. If one of the witches remains dead for long enough,
+    it will be revived with significantly reduced health.</string>
+    <string name="witch_of_hemwick_loot">Discovery of the Witch of Hemwick gives the Hunter one insight.
+    Killing her gives the Hunter two insight, four bloodshot eyeballs, and a moderate amount of blood
+    echoes.</string>
+
+</resources>

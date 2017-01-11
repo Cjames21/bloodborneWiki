@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: This is an inefficient way to handle data, create a storage class, or use a database
+         TODO: Make this update happen after launch, get the app out first!-->
+
+    <!-- Enemies string set template:
+         Enemy Title:
+         Description:
+         Associated items/loot:
+         Fight Strategy: -->
+
+    <!-- Reference: bloodbornewiki.org, youtube channels, FromSoftware's Bloodborne-->
+
+    <!--String Array used to build Enemies list in enemy_list Activity-->
+    <string-array name="enemies_list">
+        <item>Beast Patient</item>
+        <item>Beast Possessed Soul</item>
+        <item>Bloodlicker</item>
+        <item>Brain of Mensis</item>
+        <item>Brainsucker</item>
+        <item>Cainhurst Gargoyle</item>
+        <item>Cainhurst Servant</item>
+        <item>Carrion Crow</item>
+        <item>Celestial Emissary</item>
+        <item>Celestial Larvae</item>
+        <item>Chime Maiden</item>
+        <item>Chapel Giant</item>
+        <item>Church Servant</item>
+        <item>Cramped Casket</item>
+        <item>Crawler</item>
+        <item>Executioner</item>
+        <item>Eye Collector</item>
+        <item>Fluorescent Flower</item>
+        <item>Garden of Eyes</item>
+        <item>Giant Lost Child</item>
+        <item>Giant Hog</item>
+        <item>Hemwick Grave Hag</item>
+        <item>Hound</item>
+        <item>Huntsman</item>
+        <item>Giant Rat</item>
+        <item>Mad One</item>
+        <item>Mergo\'s Attendant</item>
+        <item>Mergo\'s Chief Attendant</item>
+        <item>Nightmare Apostle</item>
+        <item>Hateful Maggot</item>
+        <item>Rotted Corpse</item>
+        <item>Scourge Beast</item>
+        <item>Silver Beast</item>
+        <item>Silver Lady</item>
+        <item>Slime Scholar</item>
+        <item>Shadow of Yharnam</item>
+        <item>Skeletal Puppet</item>
+        <item>Snatcher</item>
+        <item>Troll</item>
+        <item>Vermin Host</item>
+        <item>Wheelchair Huntsman</item>
+        <item>Winter Lantern</item>
+    </string-array>
+
+     <!--Beast Patient-->
+    <string name="ememy_beast_patient">Beast Patient</string>
+    <string name="beast_patient_description">Beast Patients can be found throughout Yharnam and beyond.
+    They are the outcome of the purge of Old Yharnam and are seen wearing bandages to cover their
+    burn wounds.</string>
+    <string name="beast_patient_fight_strategy">Beast Patients are weak against fire. They are also
+    fairly quick so dodging in behind them and attacking is recommended. Another tactic to fighting
+    these foes is to memorize their attack range and bait them into attacking while remaining just
+    outside of the beast\'s range. One the beast is finished it\'s attack, go in for the kill.</string>
+    <string name="beast_patient_items_loot">Beast Patient drops blood vials and a variety of
+    gemstones</string>
+
+    <!-- Beast Possessed Soul-->
+    <string name="ememy_beast_possessed_soul">Beast Possessed Soul</string>
+    <string name="beast_possessed_soul_description">This creature is found at the bottom of the Healing
+    Church Workshop. It\'s use of magical attacks mixed with vicious physical attacks makes it a foe
+    to be reckoned with.</string>
+    <string name="beast_possessed_soul_fight_strategy">The Beast Possessed Soul is a dangerous enemy
+    for the unsuspecting Hunter. It generally moves quite slowly, and can be parried for a nice visceral
+    attack.</string>
+    <string name="beast_possessed_soul_items_loot">The Beast Possessed Soul drops a Beast rune.</string>
+
+    <!-- Bloodlicker -->
+    <string name="ememy_bloodlicker">Bloodlicker</string>
+    <string name="bloodlicker_description">Bloodlickers can be found in the first outdoors area in the
+    Cainhurst castle. It is very hard to miss these enemies with their deformed, hunched over bodies,
+    and the giant sack of blood hanging like a giant red belly. These are one of the more difficult
+    enemies to take down. </string>
+    <string name="bloodlicker_fight_strategy">Bloodlickers are incredibly fast, and hit incredibly hard.
+    If you plan on taking it down, try to listen for it\'s telltale hiss. When it makes this noise,
+    be ready to dodge behind it as these creatures always attack after making a hiss. Also be aware
+    of their donkey kick if attacking from behind these creatures. Another thing to keep in mind is
+    that Bloodlickers are not susceptible to visceral attacks.</string>
+    <string name="bloodlicker_items_loot">Bloodlickers drop bloodtinge gemstones of varying levels.</string>
+
+    <!-- Brain of Mensis -->
+    <string name="ememy_brain_of_mensis">Brain of Mesis</string>
+    <string name="brain_of_mensis_description">This foe can be found in a pit within the Nightmare
+    of Mensis. After killing Micolash and finding the lever to drop this enemy into the black pit,
+    go to the elevators on the Middle Tier of the Nightmare. About halfway down there is a window to
+    jump through. Navigate this path until you come across a bridge. Pull the lever at the end of the
+    bridge to have the Brain of Mensis dropped from it\'s chains. After that, drop down the hole near
+    the lever. Run out of the building and follow this path until you find a building with Mergo\'s
+    Attendants. Navigate to the lower level and take the elevator that seems to descend into nothing
+    but darkness. This is where the Brain of Mensis will be residing.</string>
+    <string name="brain_of_mensis_fight_strategy">The Brain of Mesis is not aggressive if attacked in
+    the black pit.</string>
+    <string name="brain_of_mensis_items_loot">This enemy will give the Hunter a tier three Moon Rune
+    if the \"Make Contact\" gesture is held until the Hunter rotates their arms. Upon killing this
+    creature, a Living string is dropped.</string>
+
+    <!-- Brainsucker -->
+    <string name="ememy_brainsucker">Brainsucker</string>
+    <string name="brainsucker_description">Brainsucker can be found throughout the entire game. Some
+    are seen wearing hoods, and others not. This appears to be for appearance\'s sake as it makes no
+    difference to the tactics and abilities this enemy can use.</string>
+    <string name="brainsucker_fight_strategy">Brainsuckers have multiple spells that they will use to
+    stun the Hunter, opening them up to their favourite ability, sucking the insight straight from your
+    brain. Avoid their stun attacks and try to have a weapon with high thrust damage as these foes are
+    weak to thrust.</string>
+    <string name="brainsucker_items_loot">Brainsuckers drop Quicksilver Bulltes and Shaman Bone Blades.</string>
+
+    <!-- Cainhurst Servant -->
+    <string name="ememy_cainhurst_servant">Cainhurst Servant</string>
+    <string name="cainhurst_servant_description">Cainhurst Servants can  be found scrubbing the interior
+    of Cainhurst Castle. They serve Queen Annalise as both castle servants and knights.</string>
+    <string name="cainhurst_servant_fight_strategy">Cainhurst Servants are not normally aggressive
+    and will focus on maintaining the castle. Once provoked, they will become quite hostile with
+    deceitfully long ranged attacks. The key to fighting these foes is to either kill them before they
+    become aggressive, or wait at a distance until they begin one of their combos and dodge in behind
+    them, allowing for a large amount of damage to be dealt. Be wary of the librarian servants as they
+    are qeuipped with an ability to shoot darts at you, enraging the Phantom Ladies.</string>
+    <string name="cainhurst_servant_items_loot">Cainhurst Servants drop Quicksilver Bullets and
+    Numbing Mists.</string>
+
+    <!-- Carrion Crow -->
+    <string name="ememy_carrion_crow">Carrion Crow</string>
+    <string name="carrion_crow_description">Carrion Crows can be found all through Bloodborne, both
+    in the city of Yharnam, and the Nightmare of Mensis. They appear to have crippled legs and will
+    usually just watch the Hunter as long as a bit of distance is kept from them.</string>
+    <string name="carrion_crow_fight_strategy">These foes have a particularly deceitful ability to
+    ignore the attacks of the Hunter, getting in hit combos which can be a drain on blood vials.
+    Outside of this mechanic, Carrion Crows aren\'t anything to fret about.</string>
+    <string name="carrion_crow_items_loot">Carrion Crows generally drop pebbles, but have also been
+    known to drop antidotes, and beast blood pellets.</string>
+
+    <!-- Celestial Larvae -->
+    <string name="ememy_celestial_larvae">Celestial Larvae</string>
+    <string name="celestial_larvae_description">Celestial Larvae can be found in the Upper Cathedral
+    Ward. These creatures are believed to be the children that once lived in the Orphanage, or perhaps
+    cross bred offspring of the Great One, Ebrietas who dwells underneath the Orphanage.</string>
+    <string name="celestial_larvae_fight_strategy">Bring sedatives. Having these will eliminate any
+    threat that these creatures possess as they rely on causing frenzy on the Hunter to inflict major
+    damage.</string>
+    <string name="celestial_larvae_items_loot">Celestial Larvae drop Madman\'s Knowledge occasionally</string>
+
+    <!-- Chime Maiden -->
+    <string name="ememy_chime_maiden">Chime Maiden</string>
+    <string name="chime_maiden_description">Chime Maiden can be found throughout Bloodborne in certain
+    areas and are capable of summoning invaders into the Hunter\'s own nightmare. Additionally, these
+    enemies will be spawned when the Hunter uses a beckoning bell. There are two variants of this
+    enemy. The first variant revives enemies that you have killed. The second variant will summon
+    invaders into your nightmare.</string>
+    <!-- TODO: Rewrite last sentence to explain the stun effect better -->
+    <string name="chime_maiden_fight_strategy">The greatest challenge of killing Chime Maidens is
+    finding them. These sneaky foes will generally be tucked away in some hard to find, or highly
+    guarded area. Once found, they will die quite easily, and stun any of it\'s raised allies.</string>
+    <string name="chime_maiden_items_loot">Chime Maidens drop quicksilver bullets.</string>
+
+    <!-- Chapel Giant -->
+    <string name="ememy_chapel_giant">Chapel Giant</string>
+    <string name="chapel_giant_description">Chapel Giants are incredibly large enemies that can be found
+    lumbering throughout the cathedral ward and the Nightmare Frontier. There are also variants
+    underneath Iosefka\'s clinic called Undead Giants.</string>
+    <string name="chapel_giant_fight_strategy">Chapel Giants are susceptible to being parried. Nailing
+    the timing on parries to get in a visceral attack is one of the most effective ways to kill these
+    enemies. The safer way to eliminate these foes is to dodge in behind the giant, and get as many
+    attacks in as possible before it turns. Dodging with the Giant\'s turn to remain behind it is also
+    extremely effective.</string>
+    <string name="chapel_giant_items_loot">Chapel Giants drop Blood Stone Shards, Blood Vials, and
+    less often, Blue Elixirs.</string>
+
+    <!-- Church Servant -->
+    <string name="ememy_church_servant">Church Servant</string>
+    <string name="church_servant_description">Church Servants can be found in a variety of locales in
+    Yharnam and beyond. The largest cluster of these enemies is in  the Cathedral Ward. These enemies
+    have many variations and all are deadly if not properly evaded.</string>
+    <string name="church_servant_fight_strategy">Church Servants hit quite hard when they\'re first
+    encountered. Luckily, they move quite slowly, so it\'s very easy to dodge in behind them and get
+    a couple attacks in before they swing around with a vicious attack. These enemies are also able
+    to be parried, enabling the Hunter to finish them in a matter of seconds.</string>
+    <string name="church_servant_items_loot">Church Servants drop Blood Vials, Quicksilver Bullets, and
+    Blue Elixirs.</string>
+
+    <!-- Cramped Casket -->
+    <string name="ememy_cramped_casket">Cramped Casket</string>
+    <!-- The caskets in earlier areas of the game have been chained shut... is this to keep these guys
+     contained inside of the casket? -->
+    <string name="cramped_casket_description">Cramped Casket\'s are believed to be the outcome of some
+    sort of dark magic used on a casket overstuffed with corpses. These foes can be found inside
+    Yar\'Ghul, the Unseen Village after Rom has been defeated.</string>
+    <string name="cramped_casket_fight_strategy">Cramped Caskets have a lot of health, and deal some
+    serious damage. If they find themselves out of range of the Hunter, it will either make use of it\'s
+    plethora of arms to close in quickly for an attack, or shoot an impaled corpse at the Hunter
+    Staying out of it\'s frontal area of attack is the wisest thing to do with these enemies as they
+    area capable of ending a fight before you can say \"Yharnam\". Get in behind, and stay there by
+    strafing/dodging when the Cramped Casket begins to turn, or do it\'s wide sweeping attack.</string>
+    <string name="cramped_casket_items_loot">Cramped Caskets will generally drop blood gems.</string>
+
+    <!-- Crawler(has variants) -->
+    <string name="ememy_crawler">Crawler</string>
+    <string name="crawler_description">Crawlers can be found in clusters in the nightmare frontier in
+    the large pits of acid throughout. They don\'t vary all that much aside from their size. </string>
+    <string name="crawler_fight_strategy">These foes aren\'t too daunting to face one on one, so
+    when you come across a cluster of Crawlers, lure one out at a time. Be cautious of their ranged
+    spit attack.</string>
+    <string name="crawler_items_loot">Crawlers drop Thick Coldblood</string>
+
+    <!-- Executioner -->
+    <string name="ememy_executioner">Executioner</string>
+    <string name="executioner_description">Executioners are the enemies found throughout Yharnam and
+    beyond carrying extremely large axes. These enemies can cause a large amount of frustration early
+    in the game due to their severely high damage output.</string>
+    <string name="executioner_fight_strategy">Executioners are vulnerable to being parried. Wait for
+    them to charge up their jumping lunge attack and right when they\'re about to lunge, shoot them.
+    Get in the visceral attack and get ready to keep fighting as these enemies have above average HP.
+    If trying to dodge in behind this enemy, be aware that it will utilize multiple attacks that can
+    still damage you.</string>
+    <string name="executioner_items_loot">Executioner can drop Tempering Blood Gemstones, Blood Vials,
+    and Pungent Blood Cocktails.</string>
+
+    <!-- Eye Collector -->
+    <string name="ememy_eye_collector">Eye Collector</string>
+    <string name="eye_collector_description">Eye Collectors can be found in the Hypogean Gaol and are
+    practically lesser versions of the Witch of Hemwick boss. They have no magical attacks, but if they
+    grab you, they will gouge your eyes out in the same fashion the Witch of Hemwick does. </string>
+    <string name="eye_collector_fight_strategy">Eye Collectors are strong to Bolt damage, and weak to
+    nearly everything else. If you ever do get grabbed by one of these enemies, mash L1,L2,R1, and R2
+    to escape a little bit quicker than normal.</string>
+    <string name="eye_collector_items_loot">Eye Collectors drop Pebbles and Bloodshot Eyeballs.</string>
+
+    <!-- Fluorescent Flower -->
+    <string name="ememy_fluorescent_flower">Fluorescent Flower</string>
+    <!-- TODO: Find a better way to describe this creature. -->
+    <string name="fluorescent_flower_description">Fluorescent Flowers can be found in Byrgenwerth.
+    These giant creatures resemble a cross between a millipede and a ultra brightly coloured flower
+    bouquet.</string>
+    <string name="fluorescent_flower_fight_strategy">Fluorescent Flowers can be quite dangerous due
+    to their size and variety of attacks. Be sure to avoid their long ranged fire ball attacks.
+    Find your way to either it\'s blind spot close to the center of it\'s body and go nuts. Be wary
+    of it\'s sweeping side swipe attack when in close, being careful not to dodge backwards as the
+    range of this attack is difficult to memorize for a while.</string>
+    <string name="fluorescent_flower_items_loot">Fluorescent Flowers drop Arcane Haze.</string>
+
+    <!-- Garden of Eyes -->
+    <string name="ememy_garden_of_eyes">Garden of Eyes</string>
+    <string name="garden_of_eyes_description">Garden of Eyes can be found in Byrgenwerth. These
+    creatures appear to be a cross between a man who line it\'s brains with eyes, as Willem suggested,
+    and a bat or insectoid of some sort.</string>
+    <string name="garden_of_eyes_fight_strategy">Garden of Eyes have one deadly attack, and that is
+    their leaping grab attack. If this attack lands, it will begin building frenzy and can kill the
+    Hunter if they\'re unprepared. Caution is advised when travelling through Byrgenwerth until all
+    locations of these enemies are memorized. Remember to mash L1,L2,R1, and R2 to escape grab attacks
+    more quickly.</string>
+    <string name="garden_of_eyes_items_loot">Garden of Eyes drop Quicksilver Bullets and Sedatives.</string>
+
+    <!-- Giant Lost Child -->
+    <string name="ememy_giant_lost_child">Giant Lost Child</string>
+    <string name="giant_lost_child_description">Giant Lost Children can be found in the Nightmare
+    Frontier. These enemies are a variant of the Chapel Giants, but they\'ve been warped in the
+    Nightmare to the point of having a separate entry.</string>
+    <string name="giant_lost_child_fight_strategy">Giant Lost Children are a huge nuisance in the
+    Nightmare Frontier as they have the ability to hurl boulders over incredible distances. These
+    boulders not only do extraordinary damage if they hit the Hunter, they also do huge amounts of
+    damage if the Hunter is even close to the explosion the boulder causes. This is the largest threat
+    these foes present and are a matter of staying behind it while close up. Be wary of other Giant
+    Lost Children while closing in on one, their boulders will not wait while you kill the current
+    target Giant.</string>
+    <string name="giant_lost_child_items_loot">Giant Lost Children drop Blood Stone Shards, or Twin
+    Blood Stone Shards, depending on what section of the Nightmare the Hunter is in. They also drop
+    Lead Elixirs.</string>
+
+    <!-- Hemwick Grave Hag -->
+    <string name="ememy_grave_hag">Hemwick Grave Hag</string>
+    <string name="grave_hag_description">Hemwick Grave Hags are found throughout Hemwick Charnel Lane.
+    These enemies worship the Witch of Hemwick, and are found circled around a statue dedicated to
+    the Witch. They give away their locations with quiet mumblings, crying, laughing, or screaming.
+    They can always be heard, manic and deadly.</string>
+    <string name="grave_hag_fight_strategy">Hemwick Grave Hags lack any sort of aggressive speed, but
+    they will overpower the Hunter if taken too lightly. They have low HP, so wait for an opening, and
+    attack until they\'re dead. Be cautious of being swarmed by these enemies as this will result in
+    a quick death. If swarmed, keep some distance and use a long range weapon with a sweeping style
+    attack. </string>
+    <string name="grave_hag_items_loot">Hemwick Grave Hags are known to drop Blood Vials, Quicksilver
+    Bullets, Blood Gems and Molotov Cocktails.</string>
+
+    <!-- Hound -->
+    <string name="ememy_hound">Hound</string>
+    <string name="hound_description">Hound</string>
+    <string name="hound_fight_strategy">Hound</string>
+    <string name="hound_items_loot">Hound</string>
+
+    <!-- Huntsman -->
+    <string name="ememy_huntsman">Huntsman</string>
+    <string name="huntsman_description">Huntsman</string>
+    <string name="huntsman_fight_strategy">Huntsman</string>
+    <string name="huntsman_items_loot">Huntsman</string>
+
+    <!-- Troll (Brick Troll, Log Troll, ...trolls, slow fuckers-->
+    <string name="ememy_troll">Troll</string>
+    <string name="troll_description">Troll</string>
+    <string name="troll_fight_strategy">Troll</string>
+    <string name="troll_items_loot">Troll</string>
+
+    <!-- Snatcher(move to appropriate spot on list -->
+    <string name="ememy_snatcher">Snatcher</string>
+    <string name="snatcher_description">Snatcher</string>
+    <string name="snatcher_fight_strategy">Snatcher</string>
+    <string name="snatcher_items_loot">Snatcher</string>
+
+    <!-- Giant Pig -->
+    <string name="ememy_giant_pig">Giant Pig</string>
+    <string name="giant_pig_description">Giant Pig</string>
+    <string name="giant_pig_fight_strategy">Giant Pig</string>
+    <string name="giant_pig_items_loot">Giant Pig</string>
+
+    <!-- Giant Rat -->
+    <string name="ememy_giant_rat">Giant Rat</string>
+    <string name="giant_rat_description">Giant Rat</string>
+    <string name="giant_rat_fight_strategy">Giant Rat</string>
+    <string name="giant_rat_items_loot">Giant Rat</string>
+
+    <!-- Viper Pits -->
+    <string name="ememy_viper_pit">Viper Pits</string>
+    <string name="viper_pit_description">Viper Pits</string>
+    <string name="viper_pit_fight_strategy">Viper Pits</string>
+    <string name="viper_pit_items_loot">Viper Pits</string>
+
+    <!-- Cainhurst Gargoyle(Move up in this list for alphabetical order) -->
+    <string name="ememy_cainhurst_gargoyle">Cainhirst Gargoyle</string>
+    <string name="cainhurst_gargoyle_description">Cainhirst Gargoyle</string>
+    <string name="cainhurst_gargoyle_fight_strategy">Cainhirst Gargoyle</string>
+    <string name="cainhurst_gargoyle_items_loot">Cainhirst Gargoyle</string>
+
+    <!-- Mad One -->
+    <string name="ememy_mad_one">Mad One</string>
+    <string name="mad_one_description">Mad One</string>
+    <string name="mad_one_fight_strategy">Mad One</string>
+    <string name="mad_one_items_loot">Mad One</string>
+
+    <!-- Mergo\'s Attendant -->
+    <string name="ememy_mergos_attendant">Mergo\'s Attendant</string>
+    <string name="mergos_attendant_description">Mergo\'s Attendant</string>
+    <string name="mergos_attendant_fight_strategy">Mergo\'s Attendant</string>
+    <string name="mergos_attendant_items_loot">Mergo\'s Attendant</string>
+
+    <!-- Mergo\'s Chief Attendant -->
+    <string name="ememy_mergos_chief_attendant">Mergo\'s Chief Attendant</string>
+    <string name="mergos_chief_attendant_description">Mergo\'s Chief Attendant</string>
+    <string name="mergos_chief_attendant_fight_strategy">Mergo\'s Chief Attendant</string>
+    <string name="mergos_chief_attendant_items_loot">Mergo\'s Chief Attendant</string>
+
+    <!-- Nightmare Apostle (has variants)-->
+    <string name="ememy_nightmare_apostle">Nightmare Apostle</string>
+    <string name="nightmare_apostle_description">Nightmare Apostle</string>
+    <string name="nightmare_apostle_fight_strategy">Nightmare Apostle</string>
+    <string name="nightmare_apostle_items_loot">Nightmare Apostle</string>
+
+    <!-- Hateful Maggot-->
+    <string name="ememy_hateful_maggot">Hateful Maggot</string>
+    <string name="hateful_maggot_description">Hateful Maggot</string>
+    <string name="hateful_maggot_fight_strategy">Hateful Maggot</string>
+    <string name="hateful_maggot_items_loot">Hateful Maggot</string>
+
+    <!-- Rotted Corpse -->
+    <string name="ememy_rotted_corpse">Rotted Corpse</string>
+    <string name="rotted_corpse_description">Rotted Corpse</string>
+    <string name="rotted_corpse_fight_strategy">Rotted Corpse</string>
+    <string name="rotted_corpse_items_loot">Rotted Corpse</string>
+
+    <!-- Slime Scholars -->
+    <string name="ememy_slime_scholar">Slime Scholars</string>
+    <string name="slime_scholar_description">Slime Scholars</string>
+    <string name="slime_scholar_fight_strategy">Slime Scholars</string>
+    <string name="slime_scholar_items_loot">Slime Scholars</string>
+
+    <!-- Scourge Beast -->
+    <string name="ememy_scourge_beast">Scourge Beast</string>
+    <string name="scourge_beast_description">Scourge Beast</string>
+    <string name="scourge_beast_fight_strategy">Scourge Beast</string>
+    <string name="scourge_beast_items_loot">Scourge Beast</string>
+
+    <!-- Shadow of Yharnam -->
+    <string name="ememy_shadow_of_yharnam">Shadow of Yharnam</string>
+    <string name="shadow_of_yharnam_description">Shadow of Yharnam</string>
+    <string name="shadow_of_yharnam_fight_strategy">Shadow of Yharnam</string>
+    <string name="shadow_of_yharnam_items_loot">Shadow of Yharnam</string>
+
+    <!-- Silver Lady -->
+    <string name="ememy_silver_lady">Silver Lady</string>
+    <string name="silver_lady_description">Silver Lady</string>
+    <string name="silver_lady_fight_strategy">Silver Lady</string>
+    <string name="silver_lady_items_loot">Silver Lady</string>x
+
+    <!-- Skeletal Puppet -->
+    <string name="ememy_skeletal_puppet">Skeletal Puppet</string>
+    <string name="skeletal_puppet_description">Skeletal Puppet</string>
+    <string name="skeletal_puppet_fight_strategy">Skeletal Puppet</string>
+    <string name="skeletal_puppet_items_loot">Skeletal Puppet</string>
+
+    <!-- Celestial Emissary (has variants, move to appropriate spot in list for alphabetical reasons -->
+    <string name="ememy_celestial_emissary">Celestial Emissary</string>
+    <string name="enemy_celestial_emissary_description">Celestial Emissary</string>
+    <string name="enemy_celestial_emissary_fight_strategy">Celestial Emissary</string>
+    <string name="enemy_celestial_emissary_items_loot">Celestial Emissary</string>
+
+    <!-- Vermin Host -->
+    <string name="ememy_vermin_host">Vermin Host</string>
+    <string name="vermin_host_description">Vermin Host</string>
+    <string name="vermin_host_fight_strategy">Vermin Host</string>
+    <string name="vermin_host_items_loot">Vermin Host</string>
+
+    <!-- Wheelchair Huntsman -->
+    <string name="ememy_wheelchair_huntsman">Wheelchair Huntsman</string>
+    <string name="wheelchair_huntsman_description">Wheelchair Huntsman</string>
+    <string name="wheelchair_huntsman_fight_strategy">Wheelchair Huntsman</string>
+    <string name="wheelchair_huntsman_items_loot">Wheelchair Huntsman</string>
+
+    <!-- Winter Lantern -->
+    <string name="ememy_winter_lantern">Winter Lantern</string>
+    <string name="winter_lantern_description">Winter Lantern</string>
+    <string name="winter_lantern_fight_strategy">Winter Lantern</string>
+    <string name="winter_lantern_items_loot">Winter Lantern</string>
+
+</resources>

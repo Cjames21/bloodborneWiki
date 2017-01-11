@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.cjameswebdev.bloodbornecatalogue.References">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="@string/app_references"
+            android:textSize="32sp"
+            android:id="@+id/reference_page_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reference_page_title"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="@string/reference_special_thanks"
+            android:textSize="16sp"
+            android:id="@+id/reference_page_intro"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reference_page_intro"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/info_resource_bloodborne_wiki"
+            android:textSize="20sp"
+            android:id="@+id/info_resource_bb_wiki_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_resource_bb_wiki_title"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/bloodborne_wiki_link"
+            android:textSize="16sp"
+            android:id="@+id/bb_wiki_link"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bb_wiki_link"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/bloodborne_wiki_special_thanks"
+            android:textSize="16sp"
+            android:id="@+id/bb_wiki_special_thanks"/>
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="?android:attr/listDivider"
+            android:layout_below="@id/bb_wiki_special_thanks"
+            android:id="@+id/divider_one" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_one"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="@string/info_resource_android_developers"
+            android:textSize="20sp"
+            android:id="@+id/android_developer_reference_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/android_developer_reference_title"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/android_developer_link"
+            android:textSize="16sp"
+            android:id="@+id/android_developer_link"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/android_developer_link"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/android_developer_special_thanks"
+            android:textSize="16sp"
+            android:id="@+id/android_developer_special_thanks"/>
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="?android:attr/listDivider"
+            android:layout_below="@id/android_developer_special_thanks"
+            android:id="@+id/divider_two"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_two"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/info_resource_google"
+            android:textSize="22sp"
+            android:id="@+id/info_resource_google_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_resource_google_title"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/google_link"
+            android:textSize="16sp"
+            android:id="@+id/google_link"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/google_link"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/google_special_thanks"
+            android:textSize="16sp"
+            android:id="@+id/google_special_thanks"/>
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="?android:attr/listDivider"
+            android:layout_below="@+id/google_special_thanks"
+            android:id="@+id/divider_three"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_three"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/info_resource_myself"
+            android:textSize="22sp"
+            android:id="@+id/info_resource_myself"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_resource_myself"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/myself_link"
+            android:textSize="16sp"
+            android:id="@+id/myself_link"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myself_link"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/myself_special_thanks"
+            android:textSize="16sp"
+            android:id="@+id/myself_special_thanks"/>
+
+    </RelativeLayout>
+
+</ScrollView>
+
